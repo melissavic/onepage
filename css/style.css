@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    position: fixed;
+    background-color: #000b;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 0 100px;
+}
+
+
+.links-container{
+    gap: 16px;
+    display:flex;
+    justify-content: end;
+ 
+}
+
+
+.links-container a{
+    color: white;
+}
+
+section{
+    height: 100vh;
+}
+
+
+.home-container{
+    background-color: darkmagenta;
+}
+ 
+.fpoo-container{
+    background-color: darkorange;
+}
+
+
+.lima-container{
+    background-color: deeppink;
+}
+
+.hare-container{
+    background-color: fuchsia;
+}
+
+.sop-container{
+    background-color: hotpink;
+}
+
+footer{
+    background-color: chartreuse;
+    height: 80px;
+}
